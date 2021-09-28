@@ -1,6 +1,6 @@
 class Api {
   static async getUserProfile(user) {
-    const API_URL = `api.github.com/users/${user}`;
+    const API_URL = `https://api.github.com/users/${user}`;
     try {
       const request = await fetch(API_URL);
       const response = await request.json();
@@ -10,7 +10,7 @@ class Api {
     }
   }
   static async getUserRepos(user) {
-    const API_URL = `api.github.com/users/${user}/repos`;
+    const API_URL = `https://api.github.com/users/${user}/repos`;
     try {
       const request = await fetch(API_URL);
       const response = await request.json();
