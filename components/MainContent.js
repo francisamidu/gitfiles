@@ -9,7 +9,10 @@ const MainContent = () => {
     <>
       {profile ? (
         <div className={styles.card}>
-          <Image src={profile?.avatarUrl} alt={profile?.name} />
+          <Image
+            src={encodeURIComponent(profile?.avatarUrl)}
+            alt={profile?.name}
+          />
           <div className={styles.profile}>
             <h2 className={styles.name}>
               <a href={profile?.url}>{profile?.name}</a>
