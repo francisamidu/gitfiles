@@ -31,8 +31,10 @@ const MainContent = () => {
               </p>
             </div>
             <div className={styles.repos}>
-              {profile?.repos?.map((repo) => (
-                <a href={repo.url}>{repo.name}</a>
+              {profile?.repos?.map((repo, index) => (
+                <a href={repo.url} key={index}>
+                  {repo.name}
+                </a>
               ))}
             </div>
           </div>
