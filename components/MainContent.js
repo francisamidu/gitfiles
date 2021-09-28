@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import { ProfilesContext } from "../contexts/profilesContext";
+import Image from "next/image";
 import styles from "../styles/Profile.module.css";
 
 const MainContent = () => {
@@ -8,7 +9,7 @@ const MainContent = () => {
     <>
       {profile ? (
         <div className={styles.card}>
-          <img src={profile?.avatarUrl} alt={profile?.name} />
+          <Image src={profile?.avatarUrl} alt={profile?.name} />
           <div className={styles.profile}>
             <h2 className={styles.name}>
               <a href={profile?.url}>{profile?.name}</a>
