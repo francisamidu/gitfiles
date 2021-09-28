@@ -1,4 +1,4 @@
-This is a [Next.js] project for retrieving and showing github profiles.
+This is a [Next.js] project for retrieving and showing github profiles. It use the Github API to retrieve profiles and repo data.
 
 ## Getting Started
 
