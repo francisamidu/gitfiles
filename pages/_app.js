@@ -1,5 +1,5 @@
 import "../styles/globals.css";
-import ProfilesContextProvider from "../contexts/profilesContext";
+import { ProfilesContextProvider } from "../contexts/profilesContext";
 
 function MyApp({ Component, pageProps }) {
   return (

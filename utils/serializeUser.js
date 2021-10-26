@@ -6,7 +6,7 @@ const serializeUser = (user) => {
     name: user.name,
     company: user.company,
     followers: user.followers,
-    followers: user.following,
+    following: user.following,
     publicRepos: user.public_repos,
     repos: [],
     url: user.html_url,

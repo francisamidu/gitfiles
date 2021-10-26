@@ -1,9 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
 .header {
   display: flex;
   flex-direction: column;
-  background-color: #2a2a72;
-  background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+  background-color: #311b92;
+  background-image: linear-gradient(315deg, #311b92 0%, #7e57c2 74%);
   color: #fff;
   justify-content: center;
   align-items: center;

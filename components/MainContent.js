@@ -9,6 +9,9 @@ const MainContent = () => {
     <>
       {profile ? (
         <div className={styles.card}>
+          <div className={styles.image}>
+            <Image src={profile.avatarUrl} width="100%" height="100%" />
+          </div>
           <div className={styles.profile}>
             <h2 className={styles.name}>
               <a href={profile?.url}>{profile?.name}</a>
