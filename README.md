@@ -1,6 +1,10 @@
-This is a [Next.js] project for retrieving and showing github profiles. It use the Github API to retrieve profiles and repo data.
+This is a [Next.js](https://nextjs.org) project for retrieving and showing github profiles. It use the Github API to retrieve profiles and repo data.
 
-## Getting Started
+# Live Site
+
+[Gitfiles](http://gitfiles-app.herokuapp.com) _Crazy hybrid of Github and Profiles(**Creative**)_
+
+## Getting Started (Local Environment)
 
 First, run the development server:
 
