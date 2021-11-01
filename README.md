@@ -1,6 +1,6 @@
 This is a [Next.js](https://nextjs.org) project for retrieving and showing github profiles. It use the Github API to retrieve profiles and repo data.
 
-![alt text](https://i.postimg.cc/Q9xXftFt/gitfiles.jpg)
+<img src="https://i.postimg.cc/Q9xXftFt/gitfiles.jpg" alt="Gitfiles" width="100%" />
 
 # Live Site
 
